@@ -11,7 +11,7 @@
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name Suhail",
       "suhail": "pm2 start . --deep-monitoring --attach --name Suhail",
-      "start": "pm2 start . --attach --name Suhail",
+      "start": "node index.js",
       "stop": "pm2 stop Suhail",
       "--postinstall": "npx puppeteer@latest install --y"
    },
@@ -87,3 +87,4 @@
    },
    "homepage": "https://github.com/SuhailTechInfo/suhaily-whatsapp-bot#readme"
 }
+
